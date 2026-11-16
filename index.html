@@ -258,6 +258,13 @@ footer dd{margin:0}
   .door{min-height:0}
 }
 @media (prefers-reduced-motion:reduce){.door{transition:none}.door:hover{transform:none}}
+.press{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.press li{border-bottom:1px solid var(--line)}
+.press a{display:grid;gap:.35rem;padding:var(--s3) 0;text-decoration:none}
+.press a:hover b{color:var(--green)}
+.press small{font-size:.78rem;letter-spacing:.06em;color:var(--ink-soft)}
+.press b{font-size:1.08rem;font-weight:700;color:var(--green-deep);line-height:1.4}
+.press b::after{content:" ↗";font-weight:400;color:var(--ink-soft)}
 </style>
 
 <script type="application/ld+json">
@@ -323,7 +330,42 @@ footer dd{margin:0}
       "English",
       "Korean"
     ]
-  }
+  },
+  "subjectOf": [
+    {
+      "@type": "NewsArticle",
+      "headline": "시퀀스인터내셔널, 서울지식재산센터 ‘K-브랜드 해외 권리화 사업’ 최종 선정",
+      "datePublished": "2026-05-28",
+      "publisher": {
+        "@type": "Organization",
+        "name": "소셜밸류 (Social Value News)"
+      },
+      "url": "https://www.socialvalue.kr/news/view/1065590587482716",
+      "inLanguage": "ko"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "(주)시퀀스인터내셔널, 중기부 ‘글로벌 강소기업 1,000+’ 선정···브랜드 애그리게이터 행보 본격화",
+      "datePublished": "2026-04-02",
+      "publisher": {
+        "@type": "Organization",
+        "name": "이넷뉴스 (E-Net News)"
+      },
+      "url": "https://www.enetnews.co.kr/news/articleView.html?idxno=48363",
+      "inLanguage": "ko"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "(주)시퀀스인터내셔널, 건국대 화장품공학과와 협력, 혁신적인 뷰티 앱 개발 프로젝트 진행",
+      "datePublished": "2024-07-14",
+      "publisher": {
+        "@type": "Organization",
+        "name": "글로벌경제신문 (Global Economic News)"
+      },
+      "url": "https://www.getnews.co.kr/news/articleView.html?idxno=683633",
+      "inLanguage": "ko"
+    }
+  ]
 }
 </script>
 
@@ -421,6 +463,21 @@ footer dd{margin:0}
       <h3 class="cgroup"><span data-l="en">Patents &amp; trademarks</span><span data-l="ko">특허 · 상표</span></h3>
       <ul class="cgrid c5"><li><button type="button" class="cthumb"><img src="certs/patent.jpg" alt="Patent certificate" loading="lazy"></button><b><span data-l="en">Patent 10-2826019</span><span data-l="ko">특허 제10-2826019호</span></b><small><span data-l="en">Ingredient-based cosmetics routine recommendation · 2025</span><span data-l="ko">성분 분석 기반 화장품 연쇄 사용 추천 · 2025</span></small></li><li><button type="button" class="cthumb"><img src="certs/tm_kyleebox.jpg" alt="KYLEEBOX trademark certificate" loading="lazy"></button><b><span data-l="en">KYLEEBOX</span><span data-l="ko">카일리박스</span></b><small><span data-l="en">Trademark · Class 35</span><span data-l="ko">상표등록 · 35류</span></small></li><li><button type="button" class="cthumb"><img src="certs/tm_drcnergy.jpg" alt="Dr.Cnergy trademark certificate" loading="lazy"></button><b><span data-l="en">Dr.Cnergy</span><span data-l="ko">닥터시너지</span></b><small><span data-l="en">Trademark · Class 3 (also 21, 35)</span><span data-l="ko">상표등록 · 3류 (21·35류 포함)</span></small></li><li><button type="button" class="cthumb"><img src="certs/tm_superglacier.jpg" alt="SUPER GLACIER trademark certificate" loading="lazy"></button><b><span data-l="en">SUPER GLACIER</span><span data-l="ko">슈퍼글래셔</span></b><small><span data-l="en">Trademark · Class 3 (also 21, 35)</span><span data-l="ko">상표등록 · 3류 (21·35류 포함)</span></small></li><li><button type="button" class="cthumb"><img src="certs/tm_liiz.jpg" alt="LIIZ trademark certificate" loading="lazy"></button><b><span data-l="en">LIIZ</span><span data-l="ko">리즈</span></b><small><span data-l="en">Trademark · Class 3</span><span data-l="ko">상표등록 · 3류</span></small></li></ul>
       <p class="tm"><span data-l="en">Personal details on certificates are masked. Click any certificate to enlarge.</span><span data-l="ko">인증서의 개인정보는 가렸습니다. 인증서를 누르면 크게 볼 수 있습니다.</span></p>
+    </div>
+  </section>
+  <section id="press">
+    <div class="wrap">
+      <div class="sec-title">
+        <div>
+          <p class="eyebrow"><span data-l="en">In the press</span><span data-l="ko">언론 보도</span></p>
+          <h2 style="margin-top:.5rem"><span data-l="en">What Korean media have reported about us.</span><span data-l="ko">언론에 소개된 시퀀스인터내셔널.</span></h2>
+        </div>
+      </div>
+      <ul class="press">
+        <li><a href="https://www.socialvalue.kr/news/view/1065590587482716" target="_blank" rel="noopener"><small>Social Value News · <time datetime="2026-05-28">2026.05.28</time></small><b><span data-l="en">Selected for the Seoul IP Center “K-Brand Overseas IP” program, one of only 10 companies in Seoul</span><span data-l="ko">시퀀스인터내셔널, 서울지식재산센터 ‘K-브랜드 해외 권리화 사업’ 최종 선정</span></b></a></li>
+        <li><a href="https://www.enetnews.co.kr/news/articleView.html?idxno=48363" target="_blank" rel="noopener"><small>E-Net News · <time datetime="2026-04-02">2026.04.02</time></small><b><span data-l="en">Named a “Global Strong SME 1000+” company by the Ministry of SMEs and Startups</span><span data-l="ko">(주)시퀀스인터내셔널, 중기부 ‘글로벌 강소기업 1,000+’ 선정···브랜드 애그리게이터 행보 본격화</span></b></a></li>
+        <li><a href="https://www.getnews.co.kr/news/articleView.html?idxno=683633" target="_blank" rel="noopener"><small>Global Economic News · <time datetime="2024-07-14">2024.07.14</time></small><b><span data-l="en">Industry–academia project with Konkuk University’s Department of Cosmetics Engineering</span><span data-l="ko">(주)시퀀스인터내셔널, 건국대 화장품공학과와 협력, 혁신적인 뷰티 앱 개발 프로젝트 진행</span></b></a></li>
+      </ul>
     </div>
   </section>
   <div class="lightbox" id="lightbox" hidden><button type="button" class="lb-close" id="lb-close" aria-label="Close">×</button><img id="lb-img" alt=""></div>
